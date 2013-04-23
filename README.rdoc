@@ -1,0 +1,3 @@
+Blog site ~ Mesh (using Ruby on Rails)
+
+developed by Megz & Ish . \(^_^)/ *just for fun
