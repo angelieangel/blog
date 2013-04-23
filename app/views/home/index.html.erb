@@ -1,8 +1,8 @@
 <!--%= render :partial => '/layouts/homebg' %>-->
   
-  <h1>Hello Rails!</h1> 
-    <div class="myblog"><%= link_to "My Blog", posts_path %></div>
- 
+<!--  <h1>Hello Rails!</h1> 
+    <div class="myblog"><!%= link_to "My Blog", posts_path %></div>
+    <div class="myblog"><!%= link_to "Sign Up!", new_user_path %></div> 
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br>
     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <br>
     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
@@ -38,4 +38,17 @@
     laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui <br>
     in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo <br>
     voluptas nulla pariatur?</p>
-    <br><br>
+    <br><br> -->
+
+<div class="center hero-unit">
+    <h1>Welcome to Blog Site</h1>
+
+      <h2>
+        This is the home page for the
+        <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
+        sample application.
+      </h2>
+
+        <%= link_to "Sign up now!", '/sign-up', class: "btn btn-large btn-primary" %>
+      </div>
+

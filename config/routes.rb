@@ -3,8 +3,11 @@ Blog::Application.routes.draw do
       resources :comments
   end
 
+  resources :users
 
-  get "home/index"
+  get "users/new"
+   match '/sign-up', to: 'users#new'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
